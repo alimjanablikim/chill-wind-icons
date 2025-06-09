@@ -1,0 +1,36 @@
+{
+  "name": "@chill-wind/icons",
+  "version": "2.0.0",
+  "description": "Dynamic Angular icon library with native Tailwind CSS support, tree-shakeable icon data, and built from Iconoir SVGs.",
+  "author": "Alimjan Ablikim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alimjanablikim/chill-wind-icons.git"
+  },
+  "keywords": [
+    "angular",
+    "icons",
+    "tailwind",
+    "tailwindcss",
+    "svg",
+    "components",
+    "ui",
+    "icon-library",
+    "tree-shaking",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^17.0.0 || ^21.0.0",
+    "@angular/common": "^17.0.0 || ^21.0.0",
+    "@angular/platform-browser": "^17.0.0 || ^21.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "npx ng-packagr",
+    "prepublishOnly": "npm run build"
+  }
+}

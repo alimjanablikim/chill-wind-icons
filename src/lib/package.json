@@ -1,0 +1,36 @@
+{
+  "name": "@chill-wind/icons",
+  "version": "2.0.0",
+  "description": "Dynamic Angular icon library with native Tailwind CSS support, tree-shakeable icon data, and built from Iconoir SVGs.",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": [
+    "./styles/chillwind-icons.css"
+  ],
+  "keywords": [
+    "angular",
+    "icons",
+    "tailwind",
+    "svg",
+    "components",
+    "ui",
+    "icon data",
+    "tree-shaking"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^17.0.0 || ^21.0.0",
+    "@angular/common": "^17.0.0 || ^21.0.0",
+    "@angular/platform-browser": "^17.0.0 || ^21.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./styles": {
+      "default": "./styles/chillwind-icons.css"
+    },
+    "./package.json": "./package.json"
+  }
+}
