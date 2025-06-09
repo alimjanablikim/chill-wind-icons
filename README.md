@@ -2,6 +2,9 @@
 
 Dynamic Angular icon library with native Tailwind CSS support, tree-shakeable icon data, and built from Iconoir SVGs.
 
+## Gallery
+https://alimjanablikim.github.io/chill-wind-icons/
+
 ## Features
 
 - 🎯 **Native Tailwind CSS Support** - Use standard Tailwind utilities for sizing, colors, and animations
